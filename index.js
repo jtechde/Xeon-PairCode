@@ -93,11 +93,11 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./sessions`)
              const xeonses = await  XeonBotInc.sendMessage(XeonBotInc.user.id, { document: sessionXeon, mimetype: `application/json`, fileName: `creds.json` })
              await XeonBotInc.sendMessage(XeonBotInc.user.id, { text: `⚠️Do not share this file with anybody⚠️\n
 ┌─❖
-│ Ohayo 😽
+│ WOW😽
 └┬❖  
-┌┤✑  Thanks for using X-PairCode
+┌┤✑  JAMES MD
 │└────────────┈ ⳹        
-│©2020-2023 XeonBotInc 
+│©2020-2025 jtech 
 └─────────────────┈ ⳹\n\n ` }, {quoted: xeonses});
               await delay(1000 * 2) 
               process.exit(0)
